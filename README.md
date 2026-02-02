@@ -98,7 +98,7 @@ Project consists of a walkthrough for a honeypot deployed on Azure with Sentinel
 <img src="images/29.png" height="80%" width="80%" alt=""/>
 <img src="images/30.png" height="80%" width="80%" alt=""/>
 <br />
-<b>Start with basic KQL queries such as "SecurityEvents". Initial results show routine activity with no clear signs of compromise. However, after about five minutes—while creating the watchlist—suspicious activity began appearing, indicating probing attempts.   </b>
+<b>Start with basic KQL queries such as "SecurityEvents | where EventID == 4625". Initial results show routine activity with no clear signs of compromise. However, after about five minutes—while creating the watchlist—suspicious activity began appearing, indicating probing attempts.   </b>
 <br />
 <br />
 
